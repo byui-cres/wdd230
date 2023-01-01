@@ -5,6 +5,8 @@
   body {
     background-color: #474e5d;
     font-family: Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   nav { 
     background-color: steelblue;
