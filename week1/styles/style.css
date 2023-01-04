@@ -1,0 +1,52 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+main {
+    min-height: 800px;
+  }
+h2 {
+	margin: 1rem;
+    text-align: center;
+}
+.main-container {
+    height: 186px;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #bed;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    width: 400px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+	margin: 1rem;
+	border:1px solid rgba(0,0,0,.1);
+	padding: .5rem;
+	font-size: smaller;
+}
+
+fieldset {
+	margin: 1.5rem;
+}
+span {
+	font-weight: 700;
+}
+#date1 {
+	color: forestgreen;
+}
+
+.highlight {
+	color: navy;
+}
+
+.message-box{
+	margin: 1rem;
+	border: 1px solid rgba(0,0,0,.1);
+	padding: .5rem;
+	background-color: #ffeebb;
+	color: #000;
+}
