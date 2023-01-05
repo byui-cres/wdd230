@@ -11,7 +11,7 @@
 	margin: 0 auto;
   }
   
-  p .wk1{
+  p.wk1{
   margin: 1rem;
   border:1px solid rgba(0,0,0,.1);
   padding: .5rem;
@@ -21,7 +21,7 @@
   fieldset{
   margin: 1.5rem;
   }
-  span {
+  span.date_ {
   font-weight: 700;
   }
   #date1 {
