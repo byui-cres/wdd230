@@ -1,0 +1,42 @@
+/* Week 1 CSS */
+.main-container-wk1 {
+	height: 200px;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #bed;
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+	width: 400px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+  }
+  
+  p .wk1{
+  margin: 1rem;
+  border:1px solid rgba(0,0,0,.1);
+  padding: .5rem;
+  font-size: smaller;
+  }
+  
+  fieldset{
+  margin: 1.5rem;
+  }
+  span {
+  font-weight: 700;
+  }
+  #date1 {
+  color: forestgreen;
+  }
+  
+  .highlight {
+  color: navy;
+  }
+  
+  .message-box{
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: .5rem;
+  background-color: #ffeebb;
+  color: #000;
+  }
+  /* week 1 CSS */

@@ -1,37 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/style.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <title>W01 Activity: Applied JavaScript</title>
-</head>
-<body>
-  
-  <header>
-    <nav>
-      <a href="../index.html">Home</a>
-    </nav>
-  </header>
-  <h2>Get the Current Date</h2>
-  <div id="emessage" class="message"></div>
-  
-  <main>
-    <div class="main-container">
-    <p>Desired Format: <strong>mon dd, year (e.g., Apr 04, 2024)</strong></p>
-    <fieldset>
-      <legend>toLocaleDateString Method</legend> <span id="date1"></span>
-    </fieldset>
-    <fieldset>
-      <legend>Custom Build using Date Methods (Old)</legend><span id="date2"></span>
-    </fieldset>
-  </div>
-  </main>
-<footer>
-  <p>My First Web Page 2023 &copy</p>
-</footer>
-<script src="scripts/app.js"></script>
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>W01 Activity: Applied JavaScript</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/mobile.css">
+        <link rel="stylesheet" href="styles/week1.css">
+    </head>
+    <body>
+        <header>
+            <img class="my-photo" src="../images/cres.jpg" alt="Photo of Cres">
+            <h1 class="header-h1">Chrestopher M. Pabalate</h1>
+        </header>
+        <nav>
+          <a href="../index.html">Home</a>
+        </nav>
+        
+        <main>
+            <h2 class="main-title">W01 Activity: Applied JavaScript</h2>
+            <hr>
+            <main>
+              <div class="main-container-wk1">
+              <p class="wk1">Desired Format: <strong>mon dd, year (e.g., Apr 04, 2024)</strong></p>
+              <fieldset>
+                <legend>toLocaleDateString Method</legend> <span id="date1"></span>
+              </fieldset>
+              <fieldset>
+                <legend>Custom Build using Date Methods (Old)</legend><span id="date2"></span>
+              </fieldset>
+            </div>
+            </main>
+            <hr>
+            <p><i>*** Some lessons may need more than one activity/assigment link.</i></p>
+        </main>
+        <footer>
+            <p>&copy; <span id="copyrightyear"></span> | Chrestopher Pabalate | Philippines</p>
+            <p class="lastModified">Last Updated: <span id="lastModified"></span></p>
+        </footer>
+        <script src="scripts/app.js"></script>
+        <script src="../scripts/js.js" async defer></script>
+    </body>
 </html>
