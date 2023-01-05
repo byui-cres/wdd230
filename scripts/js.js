@@ -1,5 +1,5 @@
-const date = document.lastModified;
-const dateyear = new Date();
-const year = dateyear.getFullYear();
-document.querySelector("#copyrightyear").textContent = year;
-document.querySelector("#lastModified").textContent = date;
+var date = document.lastModified;
+var dateyear = new Date();
+//var year = dateyear.getFullYear();
+//document.querySelector(".copyrightyear").textContent = year;
+document.querySelector(".lastModified").textContent = date;

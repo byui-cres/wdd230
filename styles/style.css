@@ -33,11 +33,11 @@ header, footer{
 }
 nav { 
   padding: 10px;
-  text-align: left;
+  text-align: center;
 }
 nav a {
   background: steelblue;
-  padding: 5px;
+  padding: 5px 70px;
   text-decoration: navajowhite;
   color: #fff;
   border-radius: 5px;
