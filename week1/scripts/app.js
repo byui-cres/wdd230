@@ -6,8 +6,8 @@ const message = document.querySelector("#emessage");
 try {
 	const options = {
 		weekday: "long",
-		day: "numeric",
 		month: "short",
+		day: "numeric",
 		year: "numeric"
 	};
 	date1.innerHTML = `Today is <span class="highlight">${new Date().toLocaleDateString("en-UK", options)}</span>!`;
