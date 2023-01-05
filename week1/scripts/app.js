@@ -7,7 +7,7 @@ try {
 	const options = {
 		weekday: "long",
 		day: "numeric",
-		month: "long",
+		month: "short",
 		year: "numeric"
 	};
 	date1.innerHTML = `Today is <span class="highlight">${new Date().toLocaleDateString("en-UK", options)}</span>!`;
