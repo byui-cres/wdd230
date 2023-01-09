@@ -21,12 +21,17 @@ header, footer{
   background-color: #325C81;
   box-shadow: 5px 5px 15px 0px #000;
 }
+.block-header{
+display: block;
+
+}
+
 h1 {
   font-size: 1.4em;
   text-shadow: 2px 2px #000;
   font-family: 'Roboto Slab', serif;
 }
-h2.main-title {
+h2{
   font-size: 1.1em;
   text-shadow: 0px 0px 5px #000;
   font-weight: 500;
