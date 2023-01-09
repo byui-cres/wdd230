@@ -1,11 +1,10 @@
 /* Week 1 CSS */
 .main-container-wk1 {
-	height: 200px;
+	min-height: 200px;
 	border: 1px solid #bbb;
-	padding: 1rem;
 	background-color: #bed;
 	box-shadow: 0 0 20px rgba(0,0,0,.1);
-	width: 400px;
+	max-width: 400px;
 	text-align: center;
 	display: block;
 	margin: 0 auto;
