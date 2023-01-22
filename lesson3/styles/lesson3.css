@@ -66,12 +66,24 @@ nav a:hover, nav a:active {
 
 main {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	align-items: center;
 	justify-content: center;
 	font-size: 0.85rem;
     align-items: start;
     padding: 20px;
+}
+main.two-columns-grid{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	align-items: start;
+	justify-content: start;
+}
+main.three-columns-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: start;
+	justify-content: start;
 }
 section img {
     width: 300px;
@@ -97,7 +109,7 @@ footer {
 		font-size: 1.1rem;
 	}
 	main {
-		grid-template-columns: 1fr 2fr;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
 
 }
