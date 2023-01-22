@@ -48,7 +48,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
-  color: var( --accent3-color:);
+  color: var( --accent3-color);
 }
 h2 {
   text-align: center;
@@ -131,7 +131,7 @@ nav a {
 }
 
 nav a:hover, nav a:active {
-	background-color: var(--nav-hover-background-color);
+	background-color: var( --secondary-color);
 	color: var(--nav-hover-link-white);
 }
 nav a:link, nav a:visited {
@@ -142,12 +142,13 @@ nav a:link, nav a:visited {
   display: grid;
   justify-content: center;
 
-  grid-template-columns: repeat(6, 15%);
+  grid-template-columns: repeat(12, 8.3%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
-    ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
+  grid-template-areas: 
+    ". . . . . home home . . . . ."
+    ". . . . . . top top . . . ."
+    ". left left left left2 left2 right2 right2 right right right ."
+    "page2 page2 . page3 page3 . . page4 page4 . page5 page5";
 }
 .sitemap > div {
   text-align: center;
@@ -167,6 +168,16 @@ nav a:link, nav a:visited {
   background-color: #ccc;
   line-height: 3em;
 }
+.sm-page4 {
+  grid-area: page4;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page5 {
+  grid-area: page5;
+  background-color: #ccc;
+  line-height: 3em;
+}
 .top {
   grid-area: top;
   border-left: 1px solid;
@@ -181,7 +192,16 @@ nav a:link, nav a:visited {
   border-top: 1px solid;
   border-right: 1px solid;
 }
-
+.left2 {
+  grid-area: left2;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+.right2 {
+  grid-area: right2;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
 
 /***********************************************/
 /** Media Queries for larger views *************/
