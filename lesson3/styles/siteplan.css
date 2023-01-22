@@ -24,6 +24,10 @@ Fonts are separated by a & */
   --paragraph-color-on-white: #1d3557; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
   --paragraph-background-color: #1d3557;
+  --a-link-color: #1d3557;
+  --a-background-color: #a8dadc;
+  --a-link-hover-color: #e63946;
+  --a-background-hover-color: #a8dadc;
   --nav-link-color: #ffffff;
   --nav-background-color: #1d3557;
   --nav-hover-link-color: #ffffff;
@@ -45,6 +49,18 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 300px;
+}
+a.white-bg {
+  color: var(--a-link-color);
+}
+a.white-bg:hover {
+  color: var( --secondary-color);
+}
+a.color-bg {
+  color: var( --a-background-color);
+}
+a.color-bg:hover {
+  color: var( --a-link-hover-color);
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -107,7 +123,9 @@ p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
-
+.align-left {
+  text-align: left;
+}
 footer{
   background-color: var(--nav-background-color);
 	text-align: center;
