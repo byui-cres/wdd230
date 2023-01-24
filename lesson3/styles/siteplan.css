@@ -229,7 +229,33 @@ nav a:link, nav a:visited {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+/* persona table */
+.persona-table {
+  border: 1px solid #eae7e2;
+  width: 100%;
+  margin: 1.5em auto;
+}
+.persona-table tr {
+  display: table-row;
+  vertical-align: inherit;
+}
+.persona-table th {
 
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+    vertical-align: middle;
+    background-color: #eae7e2;
+    padding: 0.625em 1.250em;
+    border-right: 1px solid #fff;
+
+}
+.persona-table td {
+  padding: 1.250em;
+  border: 1px solid #eae7e2;
+  vertical-align: top;
+  text-align: left;
+}
 /***********************************************/
 /** Media Queries for larger views *************/
 /***********************************************/
